@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2025/03/13 19:09:09.510,=C:\Users\Luis Felipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/13 19:10:38.088,C:\Users\Luis Felipe\Documents\GitHub\ADS_LPG_Delphi_2025\13032025\Sistema\uEscola.dfm=C:\Users\Luis Felipe\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/03/13 19:10:38.088,C:\Users\Luis Felipe\Documents\GitHub\ADS_LPG_Delphi_2025\13032025\Sistema\uEscola.pas=C:\Users\Luis Felipe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/13 19:11:02.533,C:\Users\Luis Felipe\Documents\GitHub\ADS_LPG_Delphi_2025\13032025\Sistema\SisEscola.dproj=C:\Users\Luis Felipe\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
