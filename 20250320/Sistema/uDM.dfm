@@ -1,24 +1,25 @@
 object DM: TDM
-  Height = 480
-  Width = 640
+  Height = 600
+  Width = 800
+  PixelsPerInch = 120
   object Conexao: TFDConnection
     Params.Strings = (
       
-        'Database=C:\Users\Andre Roriz\Downloads\ADS_LPG_Delphi_2025\2025' +
-        '0320\Banco dados\LOJA.FDB'
-      'User_Name=SYSDBA'
-      'Password=18071988'
+        'Database=C:\Users\Luis Felipe\Documents\GitHub\ADS_LPG_Delphi_20' +
+        '25\20250320\Banco dados\LOJA.FDB'
+      'User_Name=sysdba'
+      'Password=masterkey'
       'DriverID=FB')
     LoginPrompt = False
-    Left = 40
-    Top = 24
+    Left = 50
+    Top = 30
   end
   object phyFirebird: TFDPhysFBDriverLink
     VendorLib = 
-      'C:\Users\Andre Roriz\Downloads\ADS_LPG_Delphi_2025\20250320\Banc' +
-      'o dados\fbclient.dll'
-    Left = 120
-    Top = 24
+      'C:\Users\Luis Felipe\Documents\GitHub\ADS_LPG_Delphi_2025\202503' +
+      '20\Banco dados\fbclient.dll'
+    Left = 150
+    Top = 30
   end
   object qryCarro: TFDQuery
     Connection = Conexao
@@ -26,8 +27,8 @@ object DM: TDM
       
         'SELECT c.CODCARRO, c.DESCRICAO, c.PLACA, c.COR, c.POTENCIA FROM ' +
         'CARRO c')
-    Left = 40
-    Top = 104
+    Left = 50
+    Top = 130
     object qryCarroCODCARRO: TIntegerField
       FieldName = 'CODCARRO'
       Origin = 'CODCARRO'
@@ -58,7 +59,7 @@ object DM: TDM
   end
   object dsrCarro: TDataSource
     DataSet = qryCarro
-    Left = 56
-    Top = 128
+    Left = 126
+    Top = 168
   end
 end

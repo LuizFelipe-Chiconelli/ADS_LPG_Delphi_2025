@@ -79,6 +79,8 @@ object frmListarCarro: TfrmListarCarro
     Height = 34
     Align = alBottom
     TabOrder = 1
+    ExplicitTop = 402
+    ExplicitWidth = 756
     object btnExcluir: TBitBtn
       Left = 656
       Top = 1
@@ -87,7 +89,7 @@ object frmListarCarro: TfrmListarCarro
       Align = alRight
       Caption = '&Excluir'
       TabOrder = 0
-      ExplicitHeight = 34
+      ExplicitLeft = 654
     end
     object btnInserir: TBitBtn
       Left = 454
@@ -97,8 +99,7 @@ object frmListarCarro: TfrmListarCarro
       Align = alRight
       Caption = '&Inserir'
       TabOrder = 1
-      ExplicitTop = 6
-      ExplicitHeight = 34
+      ExplicitLeft = 452
     end
     object btnEditar: TBitBtn
       Left = 555
@@ -108,8 +109,7 @@ object frmListarCarro: TfrmListarCarro
       Align = alRight
       Caption = '&Editar'
       TabOrder = 2
-      ExplicitLeft = 656
-      ExplicitHeight = 34
+      ExplicitLeft = 553
     end
   end
 end
