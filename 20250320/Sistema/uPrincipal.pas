@@ -51,10 +51,12 @@ begin
 end;
 
 procedure TfrmPrincipal.PreencherBarraDeStatus;
+const
+  NOME_APRESENTACAO = 'ADS 2025 - Delphi';
 begin
   stbStatus.Panels[0].Text := DateToStr(Date);
   stbStatus.Panels[1].Text := TimeToStr(Time);
-  stbStatus.Panels[2].Text := 'ADS 2025 - Delphi';
+  stbStatus.Panels[2].Text := NOME_APRESENTACAO;
 end;
 
 procedure TfrmPrincipal.tmrPrincipalTimer(Sender: TObject);

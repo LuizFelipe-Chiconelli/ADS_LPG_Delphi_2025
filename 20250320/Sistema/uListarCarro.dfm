@@ -28,7 +28,9 @@ object frmListarCarro: TfrmListarCarro
     Font.Height = -12
     Font.Name = 'Segoe UI'
     Font.Style = []
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
     ParentFont = False
+    ReadOnly = True
     TabOrder = 0
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
@@ -79,8 +81,6 @@ object frmListarCarro: TfrmListarCarro
     Height = 34
     Align = alBottom
     TabOrder = 1
-    ExplicitTop = 402
-    ExplicitWidth = 756
     object btnExcluir: TBitBtn
       Left = 656
       Top = 1
@@ -89,7 +89,7 @@ object frmListarCarro: TfrmListarCarro
       Align = alRight
       Caption = '&Excluir'
       TabOrder = 0
-      ExplicitLeft = 654
+      OnClick = btnExcluirClick
     end
     object btnInserir: TBitBtn
       Left = 454
@@ -99,7 +99,6 @@ object frmListarCarro: TfrmListarCarro
       Align = alRight
       Caption = '&Inserir'
       TabOrder = 1
-      ExplicitLeft = 452
     end
     object btnEditar: TBitBtn
       Left = 555
@@ -109,7 +108,6 @@ object frmListarCarro: TfrmListarCarro
       Align = alRight
       Caption = '&Editar'
       TabOrder = 2
-      ExplicitLeft = 553
     end
   end
 end
